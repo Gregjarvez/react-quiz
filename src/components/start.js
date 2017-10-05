@@ -1,0 +1,1 @@
+import React from 'react';import Button from './button';const Start = (props) => (    [      <h2 key="quizName">{props.quizname}</h2>,      <p key="author">{props.author}</p>,      <p key="questions">Number of Questions - 10</p>,      <Button onclick={props.switchDisplay} key="toggler">        Start      </Button>    ]);export default Start;

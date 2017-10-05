@@ -1,0 +1,1 @@
+import React from 'react';const Button = (props) => (    <button onClick={() => props.onclick(props.args)}>      {props.children }    </button>)export default Button;
